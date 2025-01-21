@@ -54,6 +54,24 @@ Module Module1
         Console.WriteLine("A" = "a")
         Console.WriteLine()
 
+        Dim BanBan As Integer
+        BanBan = (0) 'set BanBan as 0
+
+        Console.WriteLine("BanBan = 34?")
+        Console.WriteLine(BanBan = 34)
+        Console.WriteLine()
+
+        Do While (BanBan < 100) 'add one if less than
+            BanBan = (BanBan + 1)
+            Console.WriteLine("BanBan = " & BanBan)
+            Console.WriteLine()
+        Loop
+
+        If (BanBan = 100) Then
+            Console.WriteLine("All Done!") 'inform BanBan is done
+            Console.WriteLine()
+        End If
+
     End Sub
 
 End Module
